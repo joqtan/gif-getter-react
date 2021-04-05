@@ -1,3 +1,4 @@
+# If you want to try the app its available on https://joqtan.github.io/gif-getter-react/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
