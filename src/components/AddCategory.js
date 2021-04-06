@@ -15,6 +15,7 @@ const AddCategory = ({ setCategories }) => {
     }
     return (
         <form onSubmit={handleSubmit}>
+            <p>{inputValue}</p>
             <input
                 placeholder='type a new category...'
                 type='text'

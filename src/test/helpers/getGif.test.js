@@ -1,4 +1,4 @@
-import { getGif } from '../helpers/getGifs'
+import { getGif } from '../../helpers/getGifs'
 describe('tests on getGif helper', () => {
     test('should get 5 elements', async () => {
         const gifs = await getGif('random')

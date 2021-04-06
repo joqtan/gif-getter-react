@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import AddCategory from './components/AddCategory'
 import GifGrid from './components/GifGrid'
 
-const GifGetterApp = () => {
-    // const categories = ['landscape', 'cityscape', 'urbanscape']
-    const [categories, setCategories] = useState(['starwars'])
+const GifGetterApp = ({ defaultCategories = [] }) => {
+    const [categories, setCategories] = useState(defaultCategories)
 
     return (
         <>

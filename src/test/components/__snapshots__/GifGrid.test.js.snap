@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test on <GifGrid/> component component should render properly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__jello"
+  />
+  <p>
+    loading data...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
